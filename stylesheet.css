@@ -2,11 +2,11 @@
 	pour la QUETE HTML CSS 15/01/2017
 */
 body {
-	background-color: rgb(104, 187, 285);
+	background-color: rgb(104, 187, 285); /* ==> Specification IMPOSEE */
 }
 
 #header {
-	background-color: rgb(94, 167, 285);
+	/*background-color: rgb(94, 167, 285);*/ /*que pour test affichage*/
 	margin: 10px;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
@@ -20,10 +20,10 @@ body {
 #left-box {
 	padding: 15px 10px 10px 10px;
 	margin: 0px 0px 0px 10px;
-	background-color: rgb(9,30,45);
-	color: rgb(255,255,255);
+	background-color: rgb(9,30,45);	/* ==> Specification IMPOSEE */
+	color: rgb(255,255,255);		/* ==> Specification IMPOSEE */
 	width: 25%;
-	float: left;
+	float: left;					/* ==> Specification IMPOSEE */
 }
 
 img {	
@@ -45,15 +45,17 @@ li {
 	padding: 0px;
 }
 
-ul{
+ul {
 	margin-left: 10px;
+	margin-top: 20px;
 	padding: 0px;
 }
 
+
 #experiences-box
 {
-	background-color: rgb(999,999,999);
-	padding: 10px 10px 10px 10px;
+	background-color: rgb(999,999,999);	/* ==> Specification IMPOSEE */
+	padding: 10px 10px 10px 10px; 
 	margin-bottom: 10px;
 	display: flex;
 	flex-direction: column;
@@ -61,35 +63,40 @@ ul{
 }
 
 .experience {
-	background-color: rgb(173,217,228);
+	/*background-color: rgb(173,217,228);*/ /*que pour test affichage*/
 	padding: 0px 10px 0px 10px;
 	margin: 0px 10px 0px 10px;
 }
 
 #studies-box
 {
-	background-color: rgb(999,999,999);
-	padding: 10px 10px 0px 10px;
-	margin-bottom: 0px;
+	background-color: rgb(999,999,999); /* ==> Specification IMPOSEE */
+	padding: 10px 10px 20px 10px;
+	/*margin-bottom: 0px;*/
 }
 .study {
-	background-color: rgb(173,217,228);
+	/*background-color: rgb(173,217,228);*/ /*que pour test affichage*/
 	padding: 0px 10px 0px 10px;
 	margin: 0px 0px 0px 0px;
 }
 
-h3 {background-color: rgb(159,30,45);
+h3 {
+	/*background-color: rgb(159,30,45);*/ /*que pour test affichage*/
 	margin-top: 10px;
 	margin-bottom: 0px;
 }
 
-/*#studies-box*/ p {background-color: rgb(19,130,15);
+#studies-box p {
+	/*background-color: rgb(19,130,15);*/ /*que pour test affichage*/
 	margin: 0px 10px;
 	 ;
 }
 
+
+
+
 #footer {
-	height: 30px;
+	height: 60px;
 	margin: 10px;
-	background-color: rgb(19,130,215)	
+	/*background-color: rgb(19,130,215)*/ /*que pour test affichage*/
 }
