@@ -1,0 +1,95 @@
+/*feuille de style  utilisée par le CV ELSA DELGADO (index.html)
+	pour la QUETE HTML CSS 15/01/2017
+*/
+body {
+	background-color: rgb(104, 187, 285);
+}
+
+#header {
+	background-color: rgb(94, 167, 285);
+	margin: 10px;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+
+#container {
+	display: flex;
+	padding: 0px;
+ }
+
+#left-box {
+	padding: 15px 10px 10px 10px;
+	margin: 0px 0px 0px 10px;
+	background-color: rgb(9,30,45);
+	color: rgb(255,255,255);
+	width: 25%;
+	float: left;
+}
+
+img {	
+	max-width: 100%;
+}
+
+#right-box {
+	padding: 0px 10px 0px 10px;
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 79%;
+}
+
+li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	margin-left: 10px;
+	padding: 0px;
+}
+
+#experiences-box
+{
+	background-color: rgb(999,999,999);
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.experience {
+	background-color: rgb(173,217,228);
+	padding: 0px 10px 0px 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+#studies-box
+{
+	background-color: rgb(999,999,999);
+	padding: 10px 10px 0px 10px;
+	margin-bottom: 0px;
+}
+.study {
+	background-color: rgb(173,217,228);
+	padding: 0px 10px 0px 10px;
+	margin: 0px 0px 0px 0px;
+}
+
+h3 {background-color: rgb(159,30,45);
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+/*#studies-box*/ p {background-color: rgb(19,130,15);
+	margin: 0px 10px;
+	 ;
+}
+
+#footer {
+	height: 30px;
+	margin: 10px;
+	background-color: rgb(19,130,215)	
+}
